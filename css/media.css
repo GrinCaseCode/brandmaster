@@ -1,0 +1,268 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.logo img {
+		width: 225px;
+	}
+	.menu {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.language-block {
+		margin-right: 20px;
+	}
+	body {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.item-billbord__content {
+		padding: 55px 30px;
+		padding-bottom: 25px;
+		max-width: 680px;
+	}
+	.title-big {
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 20px;
+	}
+	.descr-big {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.item-billbord .descr-big {
+		margin-bottom: 30px;
+	}
+	.item-billbord .btn-main {
+		font-size: 14px;
+		padding: 0px 50px;
+		height: 60px;
+	}
+	.item-billbord__image {
+		height: 415px;
+	}
+	.item-advantage {
+		font-size: 15px;
+		line-height: 20px;
+		padding: 25px;
+	}
+	.item-advantage__icon {
+		width: 44px;
+		height: 44px;
+		margin-right: 20px;
+	}
+	.unit-service {
+		padding: 35px;
+	}
+	.unit-service__title {
+		font-size: 20px;
+		line-height: 29px;
+		margin-bottom: 20px;
+		padding-left: 25px;
+	}
+	.unit-service__title::before {
+		top: 6px;
+	}
+	.consultation-block {
+		padding: 23px 30px;
+		padding-bottom: 20px;
+		min-height: 380px;
+	}
+	.descr-consult {
+		margin-bottom: 20px;
+		max-width: 440px;
+		line-height: 23px;
+	}
+	.descr-consult strong {
+		font-size: 17px;
+		line-height: 31px;
+	}
+	.phone-consult {
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.time-conslut {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.title-middle {
+		font-size: 21px;
+		line-height: 31px;
+	}
+	.consultation-block .title-middle {
+		padding-bottom: 17px;
+	}
+	.block-form {
+		padding-top: 5px;
+		padding-left: 40px;
+	}
+	.block-form .btn-main {
+		height: 53px;
+	}
+	.block-form .list-social {
+		margin-top: 20px;
+	}
+	.categories {
+		border-radius: 50px;
+	}
+	.item-category__content {
+		padding: 20px;
+	}
+	.item-category__title {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.item-category__title::before {
+		top: 7px;
+	}
+	.item-category__image {
+		height: 285px;
+	}
+	.tabs a {
+		font-size: 16px;
+		line-height: 23px;
+		padding: 0 20px;
+		height: 74px;
+		margin-right: 25px;
+	}
+	.prices .tabs a {
+		min-width: 390px;
+	}
+	.line-price {
+		padding: 11px 0;
+		font-size: 16px;
+		line-height: 23px;
+	}
+	.line-price strong {
+		font-size: 17px;
+		line-height: 25px;
+		margin-left: 21px;
+	}
+	.title-section {
+		font-size: 32px;
+		line-height: 47px;
+		padding-bottom: 29px;
+	}
+	.item-portfolio__right {
+		padding-left: 15px;
+	}
+	.title-extrasmall {
+		font-size: 12px;
+		line-height: 16px;
+		margin-bottom: 5px;
+	}
+	.button-portfolio {
+		padding-top: 20px;
+	}
+	.portfolio::after {
+		border-radius: 50px;
+	}
+	.item-sertificat {
+		height: 269px;
+	}
+	.consultation-main__image img {
+		max-width: 325px;
+	}
+	.title-block {
+		font-size: 17px;
+		line-height: 24px;
+		margin-bottom: 13px;
+	}
+	.consultation-main__right .phone-consult {
+		font-size: 22px;
+		line-height: 33px;
+	}
+	.consultation-main__right {
+		margin-right: 15px;
+	}
+	.quote {
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 30px;
+		padding-right: 15px;
+		margin-bottom: 35px;
+	}
+	.consultation-main__image {
+		margin-left: -10px;
+		margin-top: 20px;
+	}
+	.locations-block {
+		top: 40px;
+		left: 25px;
+		bottom: 40px;
+		width: 350px;
+		padding: 20px;
+	}
+	.consultation-main .btn-main {
+		margin-top: 14px;
+	}
+	.item-benefit {
+		font-size: 12px;
+		line-height: 18px;
+		padding: 15px;
+	}
+	.item-benefit__icon {
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+	}
+	.about {
+		padding: 35px 0;
+		line-height: 22px;
+	}
+	.footer {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.footer__nav_big, .footer__title {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.wrapper {
+		padding-top: 82px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.footer__content {
+		display: block !important;
+	}
+	.menu-mobile {
+		display: none !important;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1170px;
+	}
+}
