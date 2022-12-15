@@ -19,7 +19,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 }
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".navigation-page li a").mPageScroll2id({
+		offset: 80
+	});
 
 
 	//кнопка sandwich
@@ -30,6 +32,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		} else {
 			$(".menu-mobile").slideUp(200);
 		}
+	});
+
+	$(".menu-mobile .menu__haschild i").click(function() {
+		$(this).toggleClass("active");
+		$(this).siblings(".menu__dropdown").slideToggle(200);
 	});
 
 	$(".language-value").click(function() {
