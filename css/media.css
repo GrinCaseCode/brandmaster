@@ -715,6 +715,23 @@
 	.service-total {
 		padding: 20px;
 	}
+	.slider-portfolio.arrows-main .slick-arrow {
+		top: 350px;
+		color: #fff !important;
+		background: linear-gradient(180deg, #FD864E 0%, #FF664E 100%), #FFFFFF;
+	}
+	.slider-portfolio.arrows-main .slick-prev {
+		left: -10px;
+	}
+	.slider-portfolio.arrows-main .slick-next {
+		right: -10px;
+	}
+	.slider-inner {
+		margin-bottom: 20px;
+	}
+	.slider-inner .slick-dots {
+		bottom: -11px;
+	}
 }
 
 /* Extra Small Devices, Phones */

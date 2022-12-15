@@ -72,18 +72,23 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		{
 			breakpoint: 768,
 			settings: {
-				arrows: false,
-				dots: true,
+				swipe: false
 			}
 		}
 		]
 	});
 
-	$('.slider-inner').on('mousedown', function(){
-		wrapperSlider.slick.setOption({
-			swipe: false
-		})
-	})
+	
+
+	{
+		if ($(window).width() > 768) { 
+			$('.slider-inner').on('mousedown', function(){
+				wrapperSlider.slick.setOption({
+					swipe: false
+				})
+			})
+		}
+	}
 
 	$('.slider-inner').slick({
 		arrows: false,
@@ -96,9 +101,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i><div/>',
 	})
 	.on('afterChange', function(event, slick){
-		wrapperSlider.slick.setOption({
+
+		{
+		if ($(window).width() > 768) { 
+			wrapperSlider.slick.setOption({
 			swipe: true
 		})
+		}
+	}
+		
 	});
 
 
@@ -149,7 +160,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	});
 
 
-$('.row_benefits').slick({
+	$('.row_benefits').slick({
 		arrows: false,
 		dots: false,
 		infinite: true,
