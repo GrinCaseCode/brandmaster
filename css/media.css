@@ -736,7 +736,147 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+	.item-billbord__content {
+		padding: 30px 15px;
+		padding-bottom: 15px;
+	}
+	.title-big {
+		font-size: 20px;
+		line-height: 29px;
+	}
+	.descr-big {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.item-billbord__image img {
+		object-position: 90% 100%;
+	}
+	.row_benefits .slick-slide, .row_advantages .slick-slide {
+		width: 80vw;
+	}
+	.item-advantage {
+		font-size: 14px;
+		line-height: 19px;
+		padding: 20px;
+	}
+	.unit-service {
+		padding: 25px 20px;
+	}
+	.unit-service__title {
+		font-size: 17px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	.unit-service__descr {
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+	.unit-service__subtitle {
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	.icon-service {
+		margin-right: 10px;
+	}
+	.consultation-block {
+		padding: 25px 15px;
+	}
+	.item-category {
+		margin-bottom: 23px;
+	}
+	.item-category__image {
+		height: 330px;
+	}
+	.tabs a {
+		font-size: 12px;
+		line-height: 17px;
+		padding: 0 10px;
+		height: 60px;
+	}
+	.line-price {
+		padding: 11px 0;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.line-price strong {
+		font-size: 15px;
+	}
+	.locations-block__item {
+		padding: 5px 35px;
+		padding-right: 25px;
+		padding-bottom: 20px;
+	}
+	.locations-block__value {
+		font-size: 55px;
+		line-height: 84px;
+	}
+	.locations-block__item::before {
+		left: 10px;
+		top: 39px;
+	}
+	.locations-block {
+		padding-bottom: 30px;
+	}
+	.slider-sertificats .slick-slide {
+		padding: 0 5px;
+	}
+	.slider-sertificats {
+		margin: 0 -5px;
+	}
+	.item-sertificat {
+		height: 223px;
+		max-width: 160px;
+	}
+	.title-block {
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.quote::before {
+		left: -10px;	
+	}
+	.consultation-main {
+		padding: 0 20px;
+		padding-top: 20px;
+	}
+	.consultation-main__image {
+		margin-left: 0;
+	}
+	.consultation-main__image img {
+		max-width: 100%;
+	}
+	.title-middle {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.contacts-info {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.form-main {
+		padding: 25px 25px;
+		padding-bottom: 32px;
+	}
+	#map-location,
+	#map {
+		height: 280px;
+	}
+	.portfolio {
+		padding-top: 30px;
+	}
+	.navigation-page li {
+		margin-top: 15px;
+	}
+	.navigation-page {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.item-service__image {
+		height: 200px;
+	}
+	.page-projection {
+		padding-bottom: 40px;
+	}
 }
 
 /* Custom, iPhone Retina */
