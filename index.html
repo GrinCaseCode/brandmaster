@@ -18,10 +18,10 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
-<body>
+<body> 
 
 	<div class="wrapper">
 
@@ -32,7 +32,22 @@
 						<img src="img/logo.svg" alt="alt">
 					</a>
 					<ul class="menu">
-						<li><a href="#">Услуги</a></li>
+						<li class="menu__haschild">
+							<a href="#">Услуги</a>
+							<i class="far fa-chevron-down"></i>
+							<div class="menu__dropdown">
+								<ul>
+									<li><a href="#"><span>Проектирование АПС</span> (автоматическая пожарная сигнализация)</a></li>
+									<li><a href="#"><span>Монтаж АПС</span> (автоматическая пожарная сигнализация)</a></li>
+									<li><a href="#"><span>Проектирование СКС</span> (структурированные кабельные системы)</a></li>
+									<li><a href="#"><span>Монтаж СКС</span> (структурированные кабельные системы)</a></li>
+								</ul>
+								<ul class="menu__dropdown-link">
+									<li><a href="#">ЛВС и БЛВС</a></li>
+									<li><a href="#">Домофонная связь</a></li>
+								</ul>
+							</div>
+						</li>
 						<li><a href="#">Цены</a></li>
 						<li><a href="#">Наши работы</a></li>
 						<li><a href="#">Контакты</a></li>
@@ -59,24 +74,39 @@
 			</div>
 			<div class="menu-mobile">
 				<ul class="menu">
-						<li><a href="#">Услуги</a></li>
-						<li><a href="#">Цены</a></li>
-						<li><a href="#">Наши работы</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-					<div class="language-block">
-						<div class="language-value">RU <i class="far fa-chevron-down"></i></div>
-						<div class="language-dropdown">
+					<li class="menu__haschild">
+						<a href="#">Услуги</a>
+						<i class="far fa-chevron-down"></i>
+						<div class="menu__dropdown">
 							<ul>
-								<li><a href="#">ENG</a></li>
-								<li><a href="#">RU</a></li>
+								<li><a href="#"><span>Проектирование АПС</span> (автоматическая пожарная сигнализация)</a></li>
+								<li><a href="#"><span>Монтаж АПС</span> (автоматическая пожарная сигнализация)</a></li>
+								<li><a href="#"><span>Проектирование СКС</span> (структурированные кабельные системы)</a></li>
+								<li><a href="#"><span>Монтаж СКС</span> (структурированные кабельные системы)</a></li>
+							</ul>
+							<ul class="menu__dropdown-link">
+								<li><a href="#">ЛВС и БЛВС</a></li>
+								<li><a href="#">Домофонная связь</a></li>
 							</ul>
 						</div>
+					</li>
+					<li><a href="#">Цены</a></li>
+					<li><a href="#">Наши работы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="language-block">
+					<div class="language-value">RU <i class="far fa-chevron-down"></i></div>
+					<div class="language-dropdown">
+						<ul>
+							<li><a href="#">ENG</a></li>
+							<li><a href="#">RU</a></li>
+						</ul>
 					</div>
-					<div class="contacts-line">
-						<a href="tel:+38629718960" class="phone-main">+38 62 971-89-60</a>
-						<a href="#" class="btn-call"><i class="fas fa-phone-alt"></i></a>
-					</div>
+				</div>
+				<div class="contacts-line">
+					<a href="tel:+38629718960" class="phone-main">+38 62 971-89-60</a>
+					<a href="#" class="btn-call"><i class="fas fa-phone-alt"></i></a>
+				</div>
 			</div>
 		</header>
 
@@ -725,7 +755,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.1"></script>
+<script src="js/common.js?ver=1.2"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
 	$(document).ready(function() {
@@ -779,8 +809,6 @@
 				iconImageOffset: [-10, -26],
 				balloonOffset: [ 0, -26 ]
 			});
-
-
 			myMap.controls.remove('searchControl');
 			myMap.behaviors.disable('scrollZoom');
 			myMap.geoObjects.add(myPlacemark1);
@@ -789,7 +817,7 @@
 			myMap.geoObjects.add(myPlacemark4);
 		}
 	});
-</script>
+</script> 
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
