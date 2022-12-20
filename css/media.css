@@ -261,6 +261,19 @@
 		height: 180px;
 		margin-bottom: 15px;
 	}
+	.table-price table td {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px 15px;
+}
+.table-price table th {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 19px 15px;
+    }
+    .page-service_lbs {
+    	padding-bottom: 45px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -732,6 +745,40 @@
 	.slider-inner .slick-dots {
 		bottom: -11px;
 	}
+	.navigation-page li {
+    margin-top: 15px;
+}
+.table-price {
+    margin-top: 10px;
+    overflow: auto;
+    margin-right: -15px;
+}
+.table-price::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+.table-price::-webkit-scrollbar:vertical {
+    width: 3px;
+}
+.table-price::-webkit-scrollbar:horizontal {
+    height: 3px;
+}
+.table-price::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.table-price::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.table-price table {
+	width: 600px;
+}
+.table-price table th {
+	white-space: nowrap;
+}
+.page-service ~ .benefits {
+    margin-bottom: 45px;
+}
 }
 
 /* Extra Small Devices, Phones */
