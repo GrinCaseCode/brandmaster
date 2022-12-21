@@ -262,18 +262,56 @@
 		margin-bottom: 15px;
 	}
 	.table-price table td {
-    font-size: 15px;
-    line-height: 24px;
-    padding: 20px 15px;
-}
-.table-price table th {
-    font-size: 14px;
-    line-height: 20px;
-    padding: 19px 15px;
-    }
-    .page-service_lbs {
-    	padding-bottom: 45px;
-    }
+		font-size: 15px;
+		line-height: 24px;
+		padding: 20px 15px;
+	}
+	.table-price table th {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 19px 15px;
+	}
+	.page-service_lbs {
+		padding-bottom: 45px;
+	}
+	.wrapper {
+		padding-top: 78px;
+	}
+	.thanks {
+		padding-top: 70px;
+		padding-bottom: 90px;
+	}
+	.title-thanks {
+		font-size: 40px;
+		line-height: 52px;
+		max-width: 475px;
+		padding-bottom: 20px;
+	}
+	.descr-thanks {
+		font-size: 18px;
+		line-height: 30px;
+		padding-bottom: 50px;
+		max-width: 300px;
+	}
+	.error-page {
+		padding-top: 65px;
+		padding-bottom: 60px;
+		background-size: 1470px auto;
+	}
+	.title-error {
+		font-size: 46px;
+		line-height: 60px;
+		padding-right: 15px;
+	}
+	.descr-error {
+		font-size: 26px;
+		line-height: 35px;
+		max-width: 440px;
+	}
+	.error-page__bottom {
+		padding-top: 193px;
+	}
+
 }
 
 /* Medium Devices, Desktops */
@@ -586,6 +624,46 @@
 	.service-total {
 		padding: 23px 35px;
 	}
+	.title-thanks {
+		font-size: 35px;
+		line-height: 48px;
+		max-width: 415px;
+	}
+	.descr-thanks {
+		font-size: 16px;
+		line-height: 26px;
+		padding-bottom: 35px;
+		max-width: 268px;
+	}
+	.error-page {
+		background-image: none;
+		position: relative;
+		z-index: 1;
+	}
+	.error-page::before {
+		position: absolute;
+		display: block;
+		content: " ";
+		width: 1470px;
+		height: 100%;
+		top: 0;
+		left: 50%;
+		transform: translateX(-34%);
+		background-image: url(../img/bg_error.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		z-index: -1;
+	}
+	.title-error {
+		text-align: center;
+		padding-right: 0;
+	}
+	.descr-error {
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 25px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -746,39 +824,50 @@
 		bottom: -11px;
 	}
 	.navigation-page li {
-    margin-top: 15px;
-}
-.table-price {
-    margin-top: 10px;
-    overflow: auto;
-    margin-right: -15px;
-}
-.table-price::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-.table-price::-webkit-scrollbar:vertical {
-    width: 3px;
-}
-.table-price::-webkit-scrollbar:horizontal {
-    height: 3px;
-}
-.table-price::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 10px;
-}
-.table-price::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #ccc;
-}
-.table-price table {
-	width: 600px;
-}
-.table-price table th {
-	white-space: nowrap;
-}
-.page-service ~ .benefits {
-    margin-bottom: 45px;
-}
+		margin-top: 15px;
+	}
+	.table-price {
+		margin-top: 10px;
+		overflow: auto;
+		margin-right: -15px;
+	}
+	.table-price::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+	.table-price::-webkit-scrollbar:vertical {
+		width: 3px;
+	}
+	.table-price::-webkit-scrollbar:horizontal {
+		height: 3px;
+	}
+	.table-price::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, .5);
+		border-radius: 10px;
+	}
+	.table-price::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #ccc;
+	}
+	.table-price table {
+		width: 600px;
+	}
+	.table-price table th {
+		white-space: nowrap;
+	}
+	.page-service ~ .benefits {
+		margin-bottom: 45px;
+	}
+	.thanks {
+		padding-top: 50px;
+		padding-bottom: 90px;
+	}
+	.descr-thanks {
+		max-width: 194px;
+	}
+	.title-thanks {
+		font-size: 31px;
+		line-height: 42px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -920,6 +1009,31 @@
 	}
 	.page-projection { 
 		padding-bottom: 40px;
+	}
+	.thanks {
+		background-position: 40% 50%;
+	}
+	.title-thanks {
+		font-size: 28px;
+		line-height: 37px;
+	}
+	.descr-thanks {
+		font-size: 14px;
+		line-height: 23px;
+		max-width: 170px;
+	}
+	.title-error {
+		font-size: 39px;
+		line-height: 45px;
+	}
+	.error-page::before {
+		width: 1200px;
+		transform: translateX(-31%);
+	}
+	.descr-error {
+		font-size: 20px;
+		line-height: 28px;
+		max-width: 330px;
 	}
 } 
 

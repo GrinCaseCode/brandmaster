@@ -1576,10 +1576,10 @@ form {
 	line-height: 22px;
 	padding: 22px 40px;
 	letter-spacing: 0.05em;
-font-weight: 500;
-background: #F7F7F8;
-color: #FF664E;
-text-align: left;
+	font-weight: 500;
+	background: #F7F7F8;
+	color: #FF664E;
+	text-align: left;
 }
 .table-price table th:first-child {
 	border-top-left-radius: 15px;
@@ -1607,4 +1607,52 @@ text-align: left;
 }
 .page-service_lbs {
 	padding-bottom: 45px;	
+}
+.thanks {
+	padding-top: 120px;
+	padding-bottom: 180px;
+	background-image: url(../img/bg_thanks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.title-thanks {
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 500;
+	max-width: 541px;
+	padding-bottom: 44px;
+}
+.descr-thanks {
+	font-size: 20px;
+	line-height: 32px;
+	padding-bottom: 90px;
+	max-width: 340px;
+}
+.error-page {
+	padding-top: 108px;
+	padding-bottom: 108px;
+	background-image: url(../img/bg_error.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: initial;
+	background-color: #dcdee5;
+}
+.title-error {
+	font-size: 64px;
+	line-height: 77px;
+	padding-right: 30px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-align: right;
+	color: #AE030B;
+}
+.descr-error {
+	font-size: 32px;
+	line-height: 45px;
+	max-width: 490px;
+}
+.error-page__bottom {
+	padding-top: 260px;
+	text-align: center;
 }
